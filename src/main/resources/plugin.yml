@@ -1,0 +1,30 @@
+name: CustomCommand
+version: '${project.version}'
+main: io.github.cs.clydesan.Main
+api-version: '1.20'
+authors: [ClydeSan]
+commands:
+  heart:
+    description: Withdraws hearts
+    usage: /heart
+  random:
+    description: random teleport
+    usage: /random
+  togglepvp:
+    description: Enable|Disable PvP
+    usage: /togglepvp
+  msg:
+    description: Message other players
+    usage: /msg
+  event:
+    description: Event Command
+    usage: /event
+  announce:
+    description: Announce Command
+    usage: /announce
+  allow-end:
+    description: Enable | Disable End
+    usage: /allow-end
+  cord:
+    description: announce player cord
+    usage: /sandipghimire.03a817de
